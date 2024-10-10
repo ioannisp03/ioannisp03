@@ -20,7 +20,8 @@ I'm a passionate software developer and a student at Champlain College St-Lamber
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 -->
 
-![GitHub Snake Animation](https://github.com/ioannisp03/ioannisp03/blob/output/github-snake.svg)
+![GitHub Snake Animation](https://ioannisp03.github.io/ioannisp03/github-snake.svg)
+
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
