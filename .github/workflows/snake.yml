@@ -1,0 +1,42 @@
+name: Generate Snake
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow every time someone pushes to your repository
+  push:
+    branches:
+    - master
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Schedule the action to run every day at midnight
+  schedule:
+    - cron: "0 0 * * *"
+
+# The jobs that will run as part of the workflow
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks out your repository
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      # Generates the snake based on your contributions
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      # Push the generated snake image to the output folder
+      - name: Push Snake
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
