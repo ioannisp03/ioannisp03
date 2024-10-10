@@ -2,15 +2,10 @@ name: Generate Snake
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow every time someone pushes to your repository
   push:
     branches:
     - main
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-  # Schedule the action to run every day at midnight
   schedule:
     - cron: "0 0 * * *"
 
@@ -20,9 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks out your repository
+      # Checkout the repository with full history
       - name: Checkout the repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       # Generates the snake based on your contributions
       - name: Generate Snake
