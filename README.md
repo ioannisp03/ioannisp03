@@ -4,7 +4,7 @@ I'm a passionate software developer and a student at Champlain College St-Lamber
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ioannis-panaritis-9333892a3) 
-[![GitHub Hares-2088](https://img.shields.io/github/followers/ioannisp03?label=follow&style=social)](https://github.com/ioannisp03)
+[![GitHub ioannisp03](https://img.shields.io/github/followers/ioannisp03?label=follow&style=social)](https://github.com/ioannisp03)
 
 **Email:** ioannis.panaritis03@gmail.com
 
