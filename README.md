@@ -47,8 +47,6 @@ I'm a passionate software developer and a student at Champlain College St-Lamber
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Google Workspace](https://img.shields.io/badge/google%20workspace-%234285F4.svg?style=for-the-badge&logo=google%20workspace&logoColor=white)
 
----
-
 
 # 📊 GitHub Stats:
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ioannisp03&theme=dark&hide_border=false&include_all_commits=true&count_private=true&rank_icon=github)
